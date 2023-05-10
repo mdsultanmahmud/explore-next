@@ -6,5 +6,8 @@ dynamic route
 ***link korar jnno. <Link href="pathname"> </Link>
 
 ***how to create own custom 404 page
->>.
+>> create the file name as 404.js and stying it... you can change export function name 
+>> router = useRouter() .... onclick={() => router.push('/pathname')}
+
+
 
