@@ -2,7 +2,7 @@ import Link from 'next/link'
 const Navbar = () => {
     return (
         <nav>
-            <ul>
+            <ul className='nav-menu'>
                 <li>
                     <Link href='/'>Home</Link>
                 </li>
@@ -14,6 +14,9 @@ const Navbar = () => {
                 </li>
                 <li>
                     <Link href='/blog'>Blog</Link>
+                </li>
+                <li>
+                    <Link href='/post'>Post</Link>
                 </li>
             </ul>
         </nav>

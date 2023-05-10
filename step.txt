@@ -9,5 +9,29 @@ dynamic route
 >> create the file name as 404.js and stying it... you can change export function name 
 >> router = useRouter() .... onclick={() => router.push('/pathname')}
 
+***styling with css 
+>> css code can write global.css file 
+>> css can write as specific file... sytle> filename.module.css then import file 
+for access this file just write import name.classname or id. just passing an objects
+>> we can not access tag name 
+>> inline css as like ass react
+>> styling with jsx, just write <style jsx> {`write css code here`} </style> 
 
+**for using images, we can use Image components
+>>we have pass src, width, height
+>>if src is external we have to define host name on next.config.js
+
+
+**head components and seo
+<Head> 
+    <title>here your title</title>
+</Head>
+
+
+***how  to use api in next.js 
+
+>>for calling api use the getStaticProps method 
+>>for dynamic route loading api use the getStaticPaths method, find the id and call again getStaticProps 
+
+***how to deploy on vercel 
 

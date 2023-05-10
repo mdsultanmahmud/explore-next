@@ -1,0 +1,19 @@
+.title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    text-transform: capitalize;
+    color:red;
+}
+
+.par {
+   text-align:center;
+}
+.btn {
+    background-color: white;
+    color:red;
+}
+.rad {
+    border-radius: 10px;
+}
