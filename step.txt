@@ -1,0 +1,10 @@
+dynamic route 
+***create the file name with square brackets [blog].js
+***we can use useRouter() hooks, we find many property into this.
+
+
+***link korar jnno. <Link href="pathname"> </Link>
+
+***how to create own custom 404 page
+>>.
+
